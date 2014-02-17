@@ -1,5 +1,5 @@
 ### Jade Server
-Basic `[jade](http://jade-lang.com)` file server. Ideal for building local prototypes apart from any application. All other files are served statically as they usually would.
+Basic [`jade`](http://jade-lang.com) file server. Ideal for building local prototypes apart from any application. All other files are served statically as they usually would.
 
 installation
 ``` sh
