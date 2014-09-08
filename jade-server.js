@@ -17,4 +17,4 @@ http.createServer(function (req, res) {
       fileServer.serve(req, res)
     }).resume()
   }
-}).listen(8080)
+}).listen(+process.env.PORT || 8080)
