@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 var http = require('http')
-  , jade = require('jade')
+  , pug = require('pug')
   , static = require('node-static')
-  , jadeRe = /\.jade$/
+  , pugRe = /\.pug$/
   , path = process.argv.slice(2)[0]
   , fileServer = new static.Server(path || '.')
 
 http.createServer(function (req, res) {
-  if (req.url.match(jadeRe)) {
+  if (req.url.match(pugRe)) {
     res.writeHead(200, {'Content-Type': 'text/html'})
-    res.end(jade.renderFile('.' + req.url, {
-      filename: '.' + req.url.replace(jadeRe, '')
+    res.end(pug.renderFile('.' + req.url, {
+      filename: '.' + req.url.replace(pugRe, '')
     }))
   } else {
     req.addListener('end', function () {
