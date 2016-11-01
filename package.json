@@ -1,7 +1,7 @@
 {
   "name": "pugserver",
   "description": "a dynamic pug server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": "./pug-server.js",
   "preferGlobal": "true",
   "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
