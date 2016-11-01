@@ -16,7 +16,7 @@ create a folder
 usage
 ``` sh
 cd myfolder
-pug-server .
+pugserver .
 ```
 
 open your browser to [http://localhost:8080/index.pug](http://localhost:8080/index.pug)
