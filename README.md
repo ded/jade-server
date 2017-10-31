@@ -1,7 +1,7 @@
 [![npm](https://img.shields.io/npm/v/pugserver.svg?style=flat-square)](https://www.npmjs.com/package/pugserver)
 [![licence](https://img.shields.io/npm/l/pugserver.svg?style=flat-square)](https://github.com/SaschaVoid/pug-server/blob/master/LICENCE.md)
-[![GitHub tag](https://img.shields.io/github/tag/SaschaVoid/pug-server.svg?style=flat-square)](https://github.com/SaschaVoid/pug-server/tags)
-[![GitHub release](https://img.shields.io/github/release/SaschaVoid/pug-server.svg?style=flat-square)](https://github.com/SaschaVoid/pug-server/releases)
+[![GitHub tag](https://img.shields.io/github/tag/implose/pug-server.svg?style=flat-square)](https://github.com/implose/pug-server/tags)
+[![GitHub release](https://img.shields.io/github/release/implose/pug-server.svg?style=flat-square)](https://github.com/implose/pug-server/releases)
 [![I love badges](https://img.shields.io/badge/I%20love-badges-FF00FF.svg?style=flat-square)](https://shields.io)
 
 ### Pug Server
@@ -21,8 +21,10 @@ create a folder
 
 usage
 ``` sh
-cd myfolder
-pugserver .
+pugserver path/to/myfolder
 ```
 
 open your browser to [http://localhost:8080/index.pug](http://localhost:8080/index.pug)
+
+The path argument is optional. If not present it will default to current directory.
+You can choose to run your server on another port than 8080, to do so, use the -p flag followed by the port number: `pugserver -p 1337`

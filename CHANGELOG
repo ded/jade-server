@@ -1,0 +1,10 @@
+v1.0.0
+
+* updated links to git repository
+* freshened up package.json
+* updated dependency
+* added the possibility to chose the port the server listen in
+
+v0.0.2
+
+* published everything to npm : pugserver

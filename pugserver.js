@@ -1,10 +1,12 @@
 #!/usr/bin/env node
-var http = require('http')
-  , pug = require('pug')
-  , static = require('node-static')
-  , pugRe = /\.pug$/
-  , path = process.argv.slice(2)[0]
-  , fileServer = new static.Server(path || '.')
+var http = require('http'),
+  pug = require('pug'),
+  static = require('node-static'),
+  pugRe = /\.pug$/,
+  argv = require('minimist')(process.argv.slice(2)),
+  path = argv._[0],
+  port = argv.p || 8080,
+  fileServer = new static.Server(path || '.');
 
 http.createServer(function (req, res) {
   if (req.url.match(pugRe)) {
@@ -17,4 +19,4 @@ http.createServer(function (req, res) {
       fileServer.serve(req, res)
     }).resume()
   }
-}).listen(8080)
+}).listen(port);
