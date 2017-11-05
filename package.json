@@ -3,8 +3,8 @@
   "description": "a dynamic pug server",
   "version": "1.0.0",
   "bin": "./pugserver.js",
-  "preferGlobal": "true",
-  "author": "Yorick <yorick@implo.se>",
+  "preferGlobal": true,
+  "author": "Yorick <yorick@ctrlaltdelins.xyz>",
   "dependencies": {
     "minimist": "^1.2.0",
     "node-static": "^0.7.10",
@@ -12,15 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/implose/pug-server.git"
+    "url": "https://github.com/ctrlaltdelins/pug-server.git"
   },
   "bugs": {
-    "url": "https://github.com/implose/pug-server/issues"
+    "url": "https://github.com/ctrlaltdelins/pug-server/issues"
   },
   "main": "pugserver.js",
   "scripts": {
-    "start": "node pugserver.js",
-    "test": ""
+    "start": "node pugserver.js"
   },
   "license": "Beerware",
   "keywords": [

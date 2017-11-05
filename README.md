@@ -1,7 +1,7 @@
 [![npm](https://img.shields.io/npm/v/pugserver.svg?style=flat-square)](https://www.npmjs.com/package/pugserver)
-[![licence](https://img.shields.io/npm/l/pugserver.svg?style=flat-square)](https://github.com/SaschaVoid/pug-server/blob/master/LICENCE.md)
-[![GitHub tag](https://img.shields.io/github/tag/implose/pug-server.svg?style=flat-square)](https://github.com/implose/pug-server/tags)
-[![GitHub release](https://img.shields.io/github/release/implose/pug-server.svg?style=flat-square)](https://github.com/implose/pug-server/releases)
+[![licence](https://img.shields.io/npm/l/pugserver.svg?style=flat-square)](https://github.com/ctrlaltdelins/pug-server/blob/master/LICENCE.md)
+[![GitHub tag](https://img.shields.io/github/tag/ctrlaltdelins/pug-server.svg?style=flat-square)](https://github.com/ctrlaltdelins/pug-server/tags)
+[![GitHub release](https://img.shields.io/github/release/ctrlaltdelins/pug-server.svg?style=flat-square)](https://github.com/ctrlaltdelins/pug-server/releases)
 [![I love badges](https://img.shields.io/badge/I%20love-badges-FF00FF.svg?style=flat-square)](https://shields.io)
 
 ### Pug Server
