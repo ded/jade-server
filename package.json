@@ -1,16 +1,31 @@
 {
-  "name": "jade-server",
-  "description": "a dynamic jade server",
-  "version": "0.0.1",
-  "bin": "./jade-server.js",
-  "preferGlobal": "true",
-  "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
+  "name": "pugserver",
+  "description": "a dynamic pug server",
+  "version": "1.0.1",
+  "bin": "./pugserver.js",
+  "preferGlobal": true,
+  "author": "Yorick <yorick@ctrlaltdev.xyz>",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "node-static": "^0.7.10",
+    "pug": "^2.0.0-rc.4"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ded/jade-server.git"
+    "url": "https://github.com/ctrlaltdev/pug-server.git"
   },
-  "dependencies": {
-    "node-static": "0.7.x",
-    "jade": "1.1.x"
-  }
+  "bugs": {
+    "url": "https://github.com/ctrlaltdev/pug-server/issues"
+  },
+  "main": "pugserver.js",
+  "scripts": {
+    "start": "node pugserver.js"
+  },
+  "license": "Beerware",
+  "keywords": [
+    "pug",
+    "server",
+    "node",
+    "html"
+  ]
 }
